@@ -1,0 +1,72 @@
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Test Color Scroll</title>
+  <link rel="stylesheet" href="./sources/styles/reset.css">
+  <link rel="stylesheet" href="./sources/styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Karla|Montserrat" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="./sources/js/jquery.anchorScroll.js"></script>
+  <script src="./sources/js/script.js"></script>
+</head>
+<body>
+  <div class="travaux presentation" data-color="white">
+    <div class="presentation__texte" id="presentation">
+      <h1>Test scrolling color</h1>
+      <p>Hello World !</p>
+    </div>
+    <a href="#travaux1" class="anchor-scroll">Découvrir mes projets</a>
+  </div>
+  <div class="travaux" id="travaux1" data-color="violet">
+    <h2>Travaux n°1</h2>
+  </div>
+  <div class="travaux" id="travaux2" data-color="indigo">
+    <h2>Travaux n°2</h2>
+  </div>
+  <div class="travaux" id="travaux3" data-color="blue">
+    <h2>Travaux n°3</h2>
+  </div>
+  <div class="travaux" id="travaux4" data-color="green">
+    <h2>Travaux n°4</h2>
+  </div>
+  <div class="travaux" id="travaux5" data-color="yellow">
+    <h2>Travaux n°5</h2>
+  </div>
+  <div class="travaux" id="travaux6" data-color="orange">
+    <h2>Travaux n°6</h2>
+  </div>
+  <div class="travaux" id="travaux7" data-color="red">
+    <h2>Travaux n°7</h2>
+  </div>
+
+  <aside class="menu">
+      <div class="menu__link">
+        <a href="#presentation" class="link__rond anchor-scroll">0</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux1" class="link__rond anchor-scroll">1</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux2" class="link__rond anchor-scroll">2</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux3" class="link__rond anchor-scroll">3</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux4" class="link__rond anchor-scroll">4</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux5" class="link__rond anchor-scroll">5</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux6" class="link__rond anchor-scroll">6</a>
+      </div>
+      <div class="menu__link">
+        <a href="#travaux7" class="link__rond anchor-scroll">7</a>
+      </div>
+  </aside>
+
+</body>
+</html>
