@@ -10,12 +10,12 @@ h1, h2 {
   font-weight: bold;
 }
 
-.presentation, .travaux{
+.presentation, .projet{
   min-height: 100vh;
   position: relative;
 }
 
-.presentation__texte, .travaux h2{
+.presentation__texte, .projet h2{
   position: absolute;
   top: 50%;
   left: 50%;

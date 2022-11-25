@@ -3,7 +3,7 @@ $(document).ready(function() {
     // variables
     var $window = $(window),
         $body = $('body'),
-        $travaux = $('.travaux');
+        $travaux = $('.projet');
 
     let scroll = $window.scrollTop() + ($window.height() / 3);
 
