@@ -5,7 +5,7 @@ $(document).ready(function() {
         $body = $('body'),
         $travaux = $('.travaux');
 
-    var scroll = $window.scrollTop() + ($window.height() / 3);
+    let scroll = $window.scrollTop() + ($window.height() / 3);
 
     $travaux.each(function () {
       let $this = $(this);
