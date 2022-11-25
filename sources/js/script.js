@@ -8,7 +8,7 @@ $(document).ready(function() {
     var scroll = $window.scrollTop() + ($window.height() / 3);
 
     $travaux.each(function () {
-      var $this = $(this);
+      let $this = $(this);
       if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
         $body.removeClass(function (index, css) {
           return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
